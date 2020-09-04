@@ -93,11 +93,9 @@ After annotation, we need to increase the number of images available in our data
 
 ![](https://cdn-images-1.medium.com/max/3840/1*-Ypu4VDLv23k8AFXOEkKZQ.png)
 
-For this, We need to upload a DTL code shown below:
+- For this, We need to upload a DTL code.
 
- <iframe src="https://medium.com/media/7fc910d0d9dfc3d5f644bc89f3a47a5b" frameborder=0></iframe>
-
-After completing up to this, we will find another folder automatically created which contains at least 4 times the images we originally provided.
+- After completing up to this, we will find another folder automatically created which contains at least 4 times the images we originally provided.
 
 ### 4. Connecting to EC2 Instance to train the model
 
