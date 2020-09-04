@@ -1,5 +1,6 @@
 ____________________________________________________________________________________________________________________
 ## COVID-19 Instance segmentation on X-Ray Images Using MASK R-CNN:
+____________________________________________________________________________________________________________________
 `Prediction of COVID-19 infection with Deep Learning using Chest X-Rays.`
 ____________________________________________________________________________________________________________________
 ![](https://cdn-images-1.medium.com/max/2852/1*3OsMH4yKB1qhhSQeOGqB1A@2x.png)
@@ -121,8 +122,9 @@ Now we need to select a **Neural Network** model from the list for training. In 
 After downloading the weights file, we update the Mask RCNN demo code available at Matterplot Repository accordingly to accept this weight file.
 
 ![](https://miro.medium.com/max/1050/1*DN6aihj_avpc3D39XFGzWQ.png)
-
-## Conclusion
+____________________________________________________________________________________________________________________
+## Conclusion:
+____________________________________________________________________________________________________________________
 
 Thus by the above process, we were able to perform instance segmentation on COVID Chest X-Rays. Our model confirmed that the X-ray provided was having **Ground Glass Opacities, **which in turn predicted that the associated person might be infected.
 
