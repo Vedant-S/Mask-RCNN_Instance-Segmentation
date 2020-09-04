@@ -1,5 +1,5 @@
 ____________________________________________________________________________________________________________________
-### COVID-19 Instance segmentation on X-Ray Images Using MASK R-CNN:
+## COVID-19 Instance segmentation on X-Ray Images Using MASK R-CNN:
 `Prediction of COVID-19 infection with Deep Learning using Chest X-Rays.`
 ____________________________________________________________________________________________________________________
 ![](https://cdn-images-1.medium.com/max/2852/1*3OsMH4yKB1qhhSQeOGqB1A@2x.png)
