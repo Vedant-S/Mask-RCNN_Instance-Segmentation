@@ -9,7 +9,7 @@ ________________________________________________________________________________
 
 Moreover, the symptoms of novel coronavirus are quite similar to the general flu. Screening of infected patients is considered as a critical step in the fight against COVID-19. Therefore, it is highly relevant to recognize positive cases as early as possible to avoid further spreading of this epidemic. However, there are several methods to detect COVID-19 positive patients, which are typically performed based on respiratory samples and among them one of the critical approach which is treated as radiology imaging or X-Ray imaging. **Recent findings from X-Ray imaging techniques suggest that such images contain relevant information about the SARS-CoV-2 virus.**
 ____________________________________________________________________________________________________________________
-## Introduction:
+### Introduction:
 ____________________________________________________________________________________________________________________
 **Deep learning** is a popular area of research in the field of artificial intelligence. It enables end-to-end modelling to deliver promised results using input data without the need for manual feature extraction. The use of **Machine Learning methods** for diagnostics in the medical field has recently gained popularity as a complementary tool for doctors. Due to this, in recent times, many radiological images have been extensively used to detect COVID-19 confirmed cases.
 
@@ -17,7 +17,7 @@ ________________________________________________________________________________
 
 **Mask RCNN** is a conceptually **simple, flexible, and general framework **for **object instance segmentation**. The approach efficiently detects objects in an image while simultaneously generating a high-quality segmentation mask for each instance. This method extends **Faster R-CNN **by adding a branch for predicting an object mask in parallel with the existing branch for bounding box recognition. Mask R-CNN is simple to train and adds only a small overhead to Faster R-CNN, running at 5 fps. Moreover, it is easy to generalize to other tasks.
 ____________________________________________________________________________________________________________________
-## Understanding Image Segmentation:
+### Understanding Image Segmentation:
 ____________________________________________________________________________________________________________________
 **Image segmentation** is the process of partitioning a digital image into multiple segments. The goal of segmentation is to simplify and/or change the representation of an image into something that is more meaningful and easier to analyze.
 
@@ -29,11 +29,11 @@ There are 2 types of Image Segmentation- **Instance Segmentation** and **Semanti
 [**Computer Vision Tutorial: A Step-by-Step Introduction to Image Segmentation Techniques (Part 1)**
 *What's the first thing you do when you're attempting to cross the road? We typically look left and right, take stock of…*www.analyticsvidhya.com](https://www.analyticsvidhya.com/blog/2019/04/introduction-image-segmentation-techniques-python/)
 ____________________________________________________________________________________________________________________
-## Related Works:
+### Related Works:
 ____________________________________________________________________________________________________________________
 **Sethy **classified the properties obtained from different models of CNN with the **SVM Classifier** using X-Ray images. Besides, **Wang **suggested a Deep model for COVID19 patients recognition and achieved an accuracy of **92.4% **in the classification of standard classes, non-COVID, and COVID-19 Pneumonia. In another study, a **ResNet5026 **model was proposed by **Narin**, and it achieved a COVID-19 detection accuracy of **98%**. In terms of COVID-19 patients detection using X-Ray images, the Deep model of **Ioannis **reached a success rate of **98.75%** for two classes and **93.48%** for three classes. By comprising multiple CNN models, **Hemdan **has proposed a **COVIDX-Net model** that is capable of detecting confirmed cases of COVID-19. A transfer learning-based framework has been advised by **Karmany **to identify medical diagnoses and treatable diseases using image-based deep learning.
 ____________________________________________________________________________________________________________________
-## Understanding Ground Glass Opacity in X-Rays:
+### Understanding Ground Glass Opacity in X-Rays:
 ____________________________________________________________________________________________________________________
 The COVID-19 pandemic has brought radiologists’ penchant for descriptive terms front-and-centre, with frequent references to one feature in particular: **ground-glass opacities.**
 
@@ -45,7 +45,7 @@ Ground-glass opacities aren’t likely to be found in healthy lungs, though, and
 [**Ground-glass opacification | Radiology Reference Article | Radiopaedia.org**
 radiopaedia.org](https://radiopaedia.org/articles/ground-glass-opacification-3)
 ____________________________________________________________________________________________________________________
-## Technologies Used:-
+### Technologies Used:-
 ____________________________________________________________________________________________________________________
 ### Supervisely:
 ____________________________________________________________________________________________________________________
@@ -65,13 +65,13 @@ Supervisely provides the following advantages:
 [**Supervisely - Web platform for computer vision. Annotation, training and deploy**
 supervise.ly](https://supervise.ly/)
 ____________________________________________________________________________________________________________________
-## Getting Started
+### Getting Started
 ____________________________________________________________________________________________________________________
 ### Requisites
 ____________________________________________________________________________________________________________________
 We should have an active **AWS** account to connect our Supervisely account to an instance for training. We should know how to start an **AMI Linux Instance** there and install the software in it.
 ____________________________________________________________________________________________________________________
-## Working with Supervisely
+### Working with Supervisely
 ____________________________________________________________________________________________________________________
 First, we need to create an account in **Supervisely**. After creating the account, we need to create a **Workspace **and a **team**.
 
@@ -121,7 +121,7 @@ After downloading the weights file, we update the Mask RCNN demo code available 
 
 ![](https://miro.medium.com/max/1050/1*DN6aihj_avpc3D39XFGzWQ.png)
 ____________________________________________________________________________________________________________________
-## Conclusion:
+### Conclusion:
 ____________________________________________________________________________________________________________________
 
 Thus by the above process, we were able to perform instance segmentation on COVID Chest X-Rays. Our model confirmed that the X-ray provided was having **Ground Glass Opacities, **which in turn predicted that the associated person might be infected.
