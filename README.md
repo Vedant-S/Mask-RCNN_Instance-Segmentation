@@ -4,8 +4,8 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________________
 `Prediction of COVID-19 infection with Deep Learning using Chest X-Rays.`
 ____________________________________________________________________________________________________________________
-![](https://cdn-images-1.medium.com/max/2852/1*3OsMH4yKB1qhhSQeOGqB1A@2x.png)
-
+![](https://miro.medium.com/max/1908/1*ui1roGvi_F77TY07PdaI8w.png)
+____________________________________________________________________________________________________________________
 **COVID-19 or novel coronavirus disease**, which has already been declared as a **Worldwide pandemic**, at first had an outbreak in a small town of China, named **Wuhan**. More than two hundred countries around the world have already been affected by this severe virus as it spreads by human interaction.
 
 Moreover, the symptoms of novel coronavirus are quite similar to the general flu. Screening of infected patients is considered as a critical step in the fight against COVID-19. Therefore, it is highly relevant to recognize positive cases as early as possible to avoid further spreading of this epidemic. However, there are several methods to detect COVID-19 positive patients, which are typically performed based on respiratory samples and among them one of the critical approach which is treated as radiology imaging or X-Ray imaging. **Recent findings from X-Ray imaging techniques suggest that such images contain relevant information about the SARS-CoV-2 virus.**
