@@ -16,7 +16,7 @@ ________________________________________________________________________________
 
 ![](https://cdn-images-1.medium.com/max/2000/1*QyW8eCwpRzw5rDpW75-YfA.gif)
 
-**Mask RCNN** is a conceptually **simple, flexible, and general framework **for **object instance segmentation**. The approach efficiently detects objects in an image while simultaneously generating a high-quality segmentation mask for each instance. This method extends **Faster R-CNN **by adding a branch for predicting an object mask in parallel with the existing branch for bounding box recognition. Mask R-CNN is simple to train and adds only a small overhead to Faster R-CNN, running at 5 fps. Moreover, it is easy to generalize to other tasks.
+**Mask RCNN** is a conceptually **simple, flexible, and general framework** for **object instance segmentation**. The approach efficiently detects objects in an image while simultaneously generating a high-quality segmentation mask for each instance. This method extends **Faster R-CNN **by adding a branch for predicting an object mask in parallel with the existing branch for bounding box recognition. Mask R-CNN is simple to train and adds only a small overhead to Faster R-CNN, running at 5 fps. Moreover, it is easy to generalize to other tasks.
 ____________________________________________________________________________________________________________________
 ### Understanding Image Segmentation:
 ____________________________________________________________________________________________________________________
