@@ -32,7 +32,7 @@ There are 2 types of Image Segmentation- **Instance Segmentation** and **Semanti
 ____________________________________________________________________________________________________________________
 ### Related Works:
 ____________________________________________________________________________________________________________________
-**Sethy **classified the properties obtained from different models of CNN with the **SVM Classifier** using X-Ray images. Besides, **Wang **suggested a Deep model for COVID19 patients recognition and achieved an accuracy of **92.4% **in the classification of standard classes, non-COVID, and COVID-19 Pneumonia. In another study, a **ResNet5026 **model was proposed by **Narin**, and it achieved a COVID-19 detection accuracy of **98%**. In terms of COVID-19 patients detection using X-Ray images, the Deep model of **Ioannis **reached a success rate of **98.75%** for two classes and **93.48%** for three classes. By comprising multiple CNN models, **Hemdan **has proposed a **COVIDX-Net model** that is capable of detecting confirmed cases of COVID-19. A transfer learning-based framework has been advised by **Karmany **to identify medical diagnoses and treatable diseases using image-based deep learning.
+**Sethy** classified the properties obtained from different models of CNN with the **SVM Classifier** using X-Ray images. Besides, **Wang** suggested a Deep model for COVID19 patients recognition and achieved an accuracy of **92.4%** in the classification of standard classes, non-COVID, and COVID-19 Pneumonia. In another study, a **ResNet5026** model was proposed by **Narin**, and it achieved a COVID-19 detection accuracy of **98%**. In terms of COVID-19 patients detection using X-Ray images, the Deep model of **Ioannis** reached a success rate of **98.75%** for two classes and **93.48%** for three classes. By comprising multiple CNN models, **Hemdan** has proposed a **COVIDX-Net model** that is capable of detecting confirmed cases of COVID-19. A transfer learning-based framework has been advised by **Karmany** to identify medical diagnoses and treatable diseases using image-based deep learning.
 ____________________________________________________________________________________________________________________
 ### Understanding Ground Glass Opacity in X-Rays:
 ____________________________________________________________________________________________________________________
@@ -90,7 +90,7 @@ After creating the project and uploading the images, we need to **annotate** the
 
 ### 3. Performing Data Augmentation
 
-After annotation, we need to increase the number of images available in our dataset for getting accurate results. For this, we use a **DTL code **which would perform some necessary changes in our image to create some new versions of it. Some of the techniques we use are: rotating, increasing or decreasing contrast or the brightness of our images to create the new versions.
+After annotation, we need to increase the number of images available in our dataset for getting accurate results. For this, we use a **DTL code** which would perform some necessary changes in our image to create some new versions of it. Some of the techniques we use are: rotating, increasing or decreasing contrast or the brightness of our images to create the new versions.
 
 - For this, We need to upload a DTL code.
 
@@ -104,9 +104,9 @@ Now we need to select a **Neural Network** model from the list for training. In 
 
 - Now is the time when we need to create an instance in AWS and connect it with the **Supervisely **to perform the training operations.
 
-- The pre-requisite for an instance by default set by **Supervisely **includes having a GPU. But since GPU are costly and we have to request AWS for increasing the limit, we will just train our model and download the weight file. After that, we would manually run the weight file in our local machine to view the output.
+- The pre-requisite for an instance by default set by **Supervisely** includes having a GPU. But since GPU are costly and we have to request AWS for increasing the limit, we will just train our model and download the weight file. After that, we would manually run the weight file in our local machine to view the output.
 
-- In AWS, we run an **Amazon Linux **instance and connect it with our local machine via **ssh**. After that, we install Docker inside the instance since Supervisely needs **Docker **as it will automatically download a Docker image of the program which will perform the training.
+- In AWS, we run an **Amazon Linux** instance and connect it with our local machine via **ssh**. After that, we install Docker inside the instance since Supervisely needs **Docker** as it will automatically download a Docker image of the program which will perform the training.
 
 - After we install Docker in the instance, we need to connect Supervisely with the instance, using the highlighted Bash Script.
 
@@ -123,7 +123,7 @@ ________________________________________________________________________________
 ### Conclusion:
 ____________________________________________________________________________________________________________________
 
-Thus by the above process, we were able to perform instance segmentation on COVID Chest X-Rays. Our model confirmed that the X-ray provided was having **Ground Glass Opacities, **which in turn predicted that the associated person might be infected.
+Thus by the above process, we were able to perform instance segmentation on COVID Chest X-Rays. Our model confirmed that the X-ray provided was having **Ground Glass Opacities,** which in turn predicted that the associated person might be infected.
 
 By more proper annotations on the training images, we can increase the accuracy of the model so that it can mask the exact area of the GGOs in the future. Moreover, we can provide a powerful remote instance having GPUs, which can automate the entire process remotely, rather than testing the weights manually.
 
@@ -131,6 +131,12 @@ By more proper annotations on the training images, we can increase the accuracy 
 [**Vedant-S/Mask-RCNN_Instance-Segmentation**
 github.com](https://github.com/Vedant-S/Mask-RCNN_Instance-Segmentation)
 
-You can reach out on my [Twitter](https://twitter.com/iamsvedant), [Instagram](https://www.instagram.com/vedant.shr1vastava/), or on [LinkedIn](https://www.linkedin.com/in/iamsvedant/) if you need more help. I would be more than happy.
+You can reach out on my [Twitter](https://twitter.com/iamsvedant), [Instagram](https://www.instagram.com/vedant.shr1vastava/), or on [LinkedIn](https://www.linkedin.com/in/iamsvedant/) if you need more help.
+___________________________________________________________________________________________________________________________________
+### Author:
+----------------------------------
+```diff
++ Vedant Shrivastava | vedantshrivastava466@gmail.com
+````
 
-**Good Luck** 😎 and **happy coding** 👨‍💻
+
