@@ -92,8 +92,6 @@ After creating the project and uploading the images, we need to **annotate** the
 
 After annotation, we need to increase the number of images available in our dataset for getting accurate results. For this, we use a **DTL code **which would perform some necessary changes in our image to create some new versions of it. Some of the techniques we use are: rotating, increasing or decreasing contrast or the brightness of our images to create the new versions.
 
-![](https://cdn-images-1.medium.com/max/3840/1*-Ypu4VDLv23k8AFXOEkKZQ.png)
-
 - For this, We need to upload a DTL code.
 
 - After completing up to this, we will find another folder automatically created which contains at least 4 times the images we originally provided.
